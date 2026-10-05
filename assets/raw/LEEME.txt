@@ -1,0 +1,26 @@
+Aquí van las imágenes tal como salen de Nano Banana: en PNG, sin recortar,
+sin cambiar el tamaño y sin quitar el fondo verde.
+
+Nombres exactos (los prompts están en PROMPTS_ASSETS.md):
+
+  jugador.png          6 poses: quieto, correr A, correr B, salto, derrotado, celebrando
+  dron_terrestre.png   4 poses: caminar A, caminar B, ataque, destruido
+  dron_volador.png     4 poses: volar A, volar B, ataque, destruido
+  meteorito.png        3 variantes
+  reactor.png          4 estados: sano, dañado, crítico, destruido
+  fondo_hangar.png
+  fondo_exterior.png
+  fondo_reactor.png
+  fondo_alien.png
+
+Opcional:
+  logo.png             título "REACTOR ZERO" sobre fondo negro, para el menú
+  jugador_ref.png      referencia de diseño (solo para adjuntar en los prompts)
+  jugador_5.png        reemplazo de una pose suelta (el número es la pose)
+
+Intro (carpeta intro/, las genera Antigravity con PROMPT_INTRO_ANTIGRAVITY.md):
+  intro/escena_1.png   la estación en órbita
+  intro/escena_2.png   el reactor
+  intro/escena_3.png   la tormenta de meteoritos
+  intro/escena_4.png   los drones se rebelan
+  intro/escena_5.png   el último técnico

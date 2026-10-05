@@ -1,0 +1,26 @@
+# Entorno de Python (lo recrea `uv sync`)
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Ejecutable y archivos que genera PyInstaller
+build/
+dist/
+*.spec
+
+# Datos de cada jugador (apodo, volumen y puntajes)
+ranking.json
+
+# Capturas de prueba
+capturas/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Claves y configuración local
+.env
