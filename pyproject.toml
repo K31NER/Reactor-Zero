@@ -1,0 +1,21 @@
+[project]
+name = "reactor-zero"
+version = "0.1.0"
+description = "Mini juego para el parcial de Algoritmia: defensa de un reactor por oleadas"
+requires-python = ">=3.11"
+dependencies = [
+    "pygame>=2.6",
+]
+
+# Para herramientas/procesar_assets.py (numpy, pillow) y las pruebas (pytest); el juego no las usa.
+[dependency-groups]
+dev = [
+    "numpy>=2",
+    "pillow>=11",
+    "pyinstaller>=6.22.3",
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
